@@ -12,7 +12,9 @@ pool:
 steps:
 - script: |
     echo Hello, world!
-    sshpass -p 'AzureUserPiyush@1' ssh -o StrictHostKeyChecking=no AzureUser@13.73.164.166 "hostname; exit"
+    sshpass -p 'AzureUserPiyush@1' ssh -o StrictHostKeyChecking=no AzureUser@13.73.164.166 
+    hostname 
+    exit
 
   displayName: 'Run a one-line script'
 
