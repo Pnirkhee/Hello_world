@@ -1,1 +1,1 @@
-ansible_host=13.73.164.166 ansible_user=AzureUser ansible_connection=ssh ansible_ssh_pass=AzureUserPiyush@1
+13.73.164.166 ansible_user=AzureUser ansible_connection=ssh ansible_ssh_pass=AzureUserPiyush@1
