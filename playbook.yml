@@ -1,11 +1,8 @@
---- 
-- 
-  - 
-    hosts: all
-    
-    tasks: 
-      - 
-        copy: 
-          dest: /etc/
-          src: $(Build.ArtifactStagingDirectory)
-        name: "Copy files to Remote machine"
+
+---
+- hosts: all
+  tasks:
+    - name: copy file to remote host
+      copy:
+        src: $(Build.ArtifactStagingDirectory)
+        dest: /etc/
