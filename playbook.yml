@@ -1,11 +1,11 @@
--
-  - name: Test the connectivity
+--- 
+- 
+  - 
     hosts: all
-    tasks:
-      - name: Ping test
-        ping:
-
-      - name: Copy files to Remote machine
-        copy:
-          src: '$(Build.ArtifactStagingDirectory)'
+    
+    tasks: 
+      - 
+        copy: 
           dest: /etc/
+          src: $(Build.ArtifactStagingDirectory)
+        name: "Copy files to Remote machine"
