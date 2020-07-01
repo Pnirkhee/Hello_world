@@ -16,7 +16,7 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    ansible all -m ping -i ./ansible/host
+    ansible all -m ping -i host
   displayName: ' test connection' 
 
 - script: |
