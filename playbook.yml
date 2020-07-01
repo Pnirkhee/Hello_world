@@ -6,3 +6,4 @@
       copy:
         src: /home/vsts/work/1/a/initial/target/gs-maven-0.1.0.jar
         dest: /etc/
+        remote_src: yes
